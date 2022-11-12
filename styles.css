@@ -1,0 +1,102 @@
+html {
+  font-family: 'Fira Sans Condensed', sans-serif;
+  background-color: #f6f6f6;
+}
+
+body {
+  display: flex;
+  justify-content: start;
+  margin: 0;
+  flex-direction: column;
+}
+
+#bg {
+  background: #e5e5e5;
+  
+  text-align: start;
+  height: 450px;
+  margin: 0px;
+}
+
+#fb {
+  color: #2468fb;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 20px 0 10px 0px;
+}
+
+.btn {
+  background:#2468fb;
+  border: none;
+  border-radius: 8px;
+  width: 70px;
+  height: 33px;
+  color: white;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: #215fe3;
+}
+.input-1 {
+  height: 30px;
+  margin-top: 20px 4px 10px 100px;
+  border-radius: 4px;
+  border: 1px solid rgb(147, 145, 145);
+}
+
+.input-2 {
+  height:30px;
+  margin-top: 4px;
+  border-radius: 4px;
+  border: 1px solid rgb(147, 145, 145);
+}
+
+#link {
+  font-size: 15px;
+  color:#2468fb;
+  text-decoration: none;
+  font-weight: lighter;
+}
+
+#link:hover {
+  text-decoration: underline;
+}
+
+#inside {
+  background: white;
+  width: 400px;
+  height: 250px;
+  border-radius: 6px
+}
+
+#top {
+  margin: 20px 0 15px 20px;
+}
+
+.line {
+  border-bottom: 1px solid rgb(197, 197, 197);
+}
+
+.text {
+  font-size: 15px; 
+  margin: 15px;
+}
+
+.btn-2 {
+  height: 33px;
+  width: 70px;
+  border-radius: 8px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.input {
+  width: 350px;
+  height: 30px;
+  border: 1px solid rgb(212, 212, 212);
+  margin: 10px;
+  padding: 4px 0 4px 10px;
+  border-radius: 4px;
+}
